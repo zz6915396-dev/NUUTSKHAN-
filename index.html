@@ -1,1 +1,165 @@
 
+
+<!DOCTYPE html>
+<html lang="mn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NUUTSKHAN</title>
+<style>
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #100d10;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+header {
+  padding: 22px 7%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #49303a;
+}
+.logo {
+  font-size: 23px;
+  font-weight: bold;
+  letter-spacing: 4px;
+  color: #d9ad72;
+}
+nav a {
+  color: #ddd;
+  text-decoration: none;
+  margin-left: 15px;
+}
+.hero {
+  text-align: center;
+  padding: 90px 20px;
+  background: radial-gradient(ellipse, #512536, #100d10 70%);
+}
+.tag {
+  color: #d9ad72;
+  letter-spacing: 4px;
+  font-size: 12px;
+}
+h1 {
+  font-size: 44px;
+  margin: 25px 0 15px;
+}
+h1 span {
+  color: #d9ad72;
+}
+.hero p {
+  color: #d0c2c7;
+  line-height: 1.8;
+}
+.btn {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 15px 35px;
+  background: #a53d56;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+}
+section {
+  padding: 50px 7%;
+}
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.profiles {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+.profile {
+  background: #21191e;
+  border: 1px solid #49303a;
+  border-radius: 16px;
+  padding: 25px;
+  text-align: center;
+}
+.avatar {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #7c3549, #d9ad72);
+  display: grid;
+  place-items: center;
+  margin: 0 auto 15px;
+  font-size: 32px;
+}
+.profile p {
+  color: #bbaeb3;
+  margin-top: 10px;
+  line-height: 1.6;
+}
+footer {
+  text-align: center;
+  padding: 30px;
+  color: #9e8c94;
+  border-top: 1px solid #38252d;
+}
+@media(max-width:600px) {
+  h1 { font-size: 34px; }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">NUUTSKHAN</div>
+  <nav>
+    <a href="#home">Нүүр</a>
+    <a href="#profiles">Танилцах</a>
+  </nav>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="tag">A NEW WAY TO CONNECT</div>
+  <h1>Өөрийн хүнээ <span>олоорой.</span></h1>
+  <p>
+    Шинэ хүмүүстэй танилц.<br>
+    Жинхэнэ харилцааны эхлэлийг эндээс тавь.
+  </p>
+  <a class="btn" href="#profiles">Танилцаж эхлэх</a>
+</section>
+
+<section id="profiles">
+  <h2>Танилцах ертөнц</h2>
+  <div class="profiles">
+
+    <div class="profile">
+      <div class="avatar">✦</div>
+      <h3>Шинэ танилууд</h3>
+      <p>Ижил сонирхолтой хүмүүстэй танилц.</p>
+    </div>
+
+    <div class="profile">
+      <div class="avatar">♡</div>
+      <h3>Жинхэнэ холбоо</h3>
+      <p>Итгэлцэл дээр харилцаагаа эхлүүл.</p>
+    </div>
+
+    <div class="profile">
+      <div class="avatar">∞</div>
+      <h3>Шинэ боломж</h3>
+      <p>Шинэ хүмүүстэй танилцаж, дурсамж бүтээ.</p>
+    </div>
+
+  </div>
+</section>
+</main>
+
+<footer>
+  © 2026 NUUTSKHAN. All rights reserved.
+</footer>
+
+</body>
+</html>
